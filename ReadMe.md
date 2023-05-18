@@ -7,7 +7,7 @@
         <li>If your device does not have eas, install that first with the following command.</li>
         <li>npm install -g eas-cli</li>
         <li>eas build:configure</li>
-        <li>When prigram ask choose 'All' option. And run next command.</li>
+        <li>When prigram ask platforms, choose 'All' option. And run next command.</li>
         <li>eas build --profile development --platform android</li>
         <li>Program will ask your expo account information. fill correctly.</li>
         <li>When get QR code, scan it with expo app form your phone and download APK file and install it. </li>
