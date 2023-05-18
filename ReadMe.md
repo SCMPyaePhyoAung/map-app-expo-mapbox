@@ -11,7 +11,8 @@
         <li>eas build --profile development --platform android</li>
         <li>Program will ask your expo account information. fill correctly.</li>
         <li>When get QR code, scan it with expo app form your phone and download APK file and install it. </li>
-        <Open>Open terminal form you project and it will give you QR code and link, open app with that link</li>
+        <li>Open terminal form you project and run the following command.</li> 
+        <li>It will give you QR code and link, open app with that link or QR code.</li>
     </ul>
 
 <h1>MapBox Preview Image</h1>
