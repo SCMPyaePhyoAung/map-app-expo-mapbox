@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "MapBoxApp",
+    "slug": "MapBoxApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.pyaephyoaung.MapBoxApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoibWF5dGh1emFybGluIiwiYSI6ImNsaHNyNHo5NzJudnUzZm9kOTVxc2o3NW8ifQ.lLdlZAm3QcqesN9tTZy_CQ"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bd7d492c-30a3-4221-87e6-d92c286df011"
+      }
+    }
+  }
+}
