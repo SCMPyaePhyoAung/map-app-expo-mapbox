@@ -2,7 +2,7 @@
     <ul>
         <li>Open the program file and enter into MapBoxApp folder.</li>  
         <li>Open terminal and run the following command.</li>
-        <li>expo install</li>
+        <li>npm install</li>
         <li>And run the program with this command.</li>  
         <li>If your device does not have eas, install that first with the following command.</li>
         <li>npm install -g eas-cli</li>
